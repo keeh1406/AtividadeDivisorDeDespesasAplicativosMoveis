@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">AtividadeDivisaodeDespesasAplicativosMoveis</string>
+    <string name="app_name">App Despesas Android</string>
+    <string name="textLocalHint">Digite o nome do local</string>
+    <string name="textValorHint">Digite o valor total</string>
+    <string name="textQtdePessoas">Total de pessoas</string>
+    <string name="textBtnCalcular">Calcular</string>
+    <string name="textDespesa">Divisão da despesa:</string>
+    <string name="textBtnListar">Listar</string>
 </resources>

@@ -1,40 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.opet.atividadedivisaodedespesasaplicativosmoveis.MainActivity">
+    tools:context="br.com.opet.tds.appdespesasandroid.MainActivity">
 
     <EditText
-        android:id="@+id/editValor"
-        android:textSize="20sp"
-        android:hint="Digite o total da despesa"
-        android:inputType="numberDecimal"
+        android:id="@+id/editLocal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/textLocalHint"/>
     <EditText
-        android:id="@+id/editPessoas"
-        android:textSize="20sp"
-        android:hint="Digite a quantidade de pessoas"
-        android:inputType="number"
+        android:id="@+id/editValorDespesa"
+        android:hint="@string/textValorHint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <CheckBox
-        android:id="@+id/checkServico"
-        android:text="Adicionar 10% de serviço"
+    <TextView
+        android:text="@string/textQtdePessoas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/textQtde"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:id="@+id/seekQtdePessoas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:min="1"
+        android:progress="1" />
+    <TextView
+        android:id="@+id/textDivisao"
+        android:text="@string/textDespesa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:onClick="calcular"
+        android:text="@string/textBtnCalcular"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Calcular"/>
-    <TextView
-        android:id="@+id/textResultado"
-        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="listar"
+        android:text="@string/textBtnListar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

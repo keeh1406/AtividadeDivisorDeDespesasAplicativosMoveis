@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\opet\Desktop\AtividadeDivisorDeDespesasAplicativosMoveis\AtividadeDivisaodeDespesasAplicativosMoveis.iml" filepath="C:\Users\opet\Desktop\AtividadeDivisorDeDespesasAplicativosMoveis\AtividadeDivisaodeDespesasAplicativosMoveis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AtividadeDivisorDeDespesasAplicativosMoveis.iml" filepath="$PROJECT_DIR$/AtividadeDivisorDeDespesasAplicativosMoveis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AppDespesasAndroid.iml" filepath="$PROJECT_DIR$/.idea/AppDespesasAndroid.iml" />
+      <module fileurl="file://C:\Users\opet\Desktop\AppDespesasAndroid\AppDespesasAndroid.iml" filepath="C:\Users\opet\Desktop\AppDespesasAndroid\AppDespesasAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\opet\Desktop\AtividadeDivisorDeDespesasAplicativosMoveis\app\app.iml" filepath="C:\Users\opet\Desktop\AtividadeDivisorDeDespesasAplicativosMoveis\app\app.iml" />
+      <module fileurl="file://C:\Users\opet\Desktop\AppDespesasAndroid\app\app.iml" filepath="C:\Users\opet\Desktop\AppDespesasAndroid\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exerciciolistener/exerciciolistener.iml" filepath="$PROJECT_DIR$/exerciciolistener/exerciciolistener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exerciciospinner/exerciciospinner.iml" filepath="$PROJECT_DIR$/exerciciospinner/exerciciospinner.iml" />
     </modules>
   </component>
 </project>
